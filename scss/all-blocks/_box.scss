@@ -1,0 +1,56 @@
+.box__list{
+    display: flex;
+}
+
+.box__items{
+    margin-left: 32.5px;
+    margin-top: -25px;
+}
+
+.box__info{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.box__btn{
+    margin-top: 20px;
+    width: 150px;
+    height: 41px;
+    border-radius: 100px;
+    border: 1px solid var(--green, #1DBF73);
+    background: var(--green, #1DBF73);
+    color: #F2F0FE;
+    cursor: pointer;
+    transition: all 0.7s ease;
+
+    &:hover{
+        background-color: #fff;
+        color: #1DBF73;
+    }
+}
+
+.box__button{
+    margin-bottom: 100px;
+}
+
+.box__lists{
+    width: 400px;
+    height: 220px;
+    margin-left: 20px;
+    border-radius: 20px;
+    background: #F2F0FE;
+    transition: all 0.7s ease;
+
+    &:hover{
+        background-color: #00ff8898;
+    }
+}
+
+.box{
+    margin-top: 100px;
+}
+
+.box__texts{
+    margin-top: 100px;
+    color: #1DBF73;
+}

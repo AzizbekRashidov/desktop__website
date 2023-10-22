@@ -1,0 +1,70 @@
+.about__item{
+    display: flex;
+}
+
+.about__items{
+    margin-top: 50px;
+}
+
+.about__text{
+    padding-left: 20px;
+}
+
+.about__img{
+    width: 44px;
+    height: 44px;
+    border-radius: 44px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    margin-top: 20px;
+}
+
+.about__texts{
+    width: 380px;
+    color: var(--black, #222);
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.about__btn{
+    width: 380px;
+    height: 41px;
+    border-radius: 50px;
+    border: 1px solid var(--green, #1DBF73);
+    cursor: pointer;
+    transition: all 1s ease;
+
+    &:hover{
+        background-color: #1DBF73;
+    }
+}
+
+.about__list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: -50px;
+}
+
+.about__texty{
+    margin-top: 110px;
+    margin-left: 60px;
+}
+
+.about__itemy{
+    width: 400px;
+    height: 240px;
+    border-radius: 20px;
+    background: var(--light-gray, #F2F0FE);
+    margin-top: 60px;
+    margin-left: 30px;
+    transition: all 0.7s ease;
+
+    &:hover{
+        cursor: pointer;
+        background-color: #1DBF73;
+        color: #F2F0FE;
+    }
+}
